@@ -38,7 +38,7 @@ install:
   #- echo no | android create avd --name AVD -t android-25 --abi google_apis/armeabi-v7a
   #- android list avd
   # fbsimctl
-  - brew tap facebook/fb && brew install fbsimctl
+  - command -v fbsimctl || (brew tap facebook/fb && brew install fbsimctl)
 
 script:
   - set -e
