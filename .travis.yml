@@ -15,7 +15,7 @@ git:
 
 branches:
   only:
-  - master
+  - test
 
 cache:
   yarn: true
