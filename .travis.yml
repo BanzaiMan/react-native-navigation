@@ -14,6 +14,7 @@ branches:
   only:
   - master
   - v2
+  - v2-test
 
 cache:
   directories:
